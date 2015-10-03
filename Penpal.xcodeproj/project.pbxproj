@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B9009A01BBFAEC00081145B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B90099F1BBFAEC00081145B /* AppDelegate.swift */; };
+		8B9009A21BBFAEC00081145B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9009A11BBFAEC00081145B /* ViewController.swift */; };
+		8B9009A51BBFAEC00081145B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B9009A31BBFAEC00081145B /* Main.storyboard */; };
+		8B9009A71BBFAEC00081145B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B9009A61BBFAEC00081145B /* Assets.xcassets */; };
+		8B9009AA1BBFAEC00081145B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B9009A81BBFAEC00081145B /* LaunchScreen.storyboard */; };
+		8B9009B51BBFAEC00081145B /* PenpalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9009B41BBFAEC00081145B /* PenpalTests.swift */; };
+		8B9009C01BBFAEC00081145B /* PenpalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9009BF1BBFAEC00081145B /* PenpalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B9009B11BBFAEC00081145B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B9009941BBFAEC00081145B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B90099B1BBFAEC00081145B;
+			remoteInfo = Penpal;
+		};
+		8B9009BC1BBFAEC00081145B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B9009941BBFAEC00081145B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B90099B1BBFAEC00081145B;
+			remoteInfo = Penpal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B90099C1BBFAEC00081145B /* Penpal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Penpal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B90099F1BBFAEC00081145B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B9009A11BBFAEC00081145B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B9009A41BBFAEC00081145B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B9009A61BBFAEC00081145B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B9009A91BBFAEC00081145B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B9009AB1BBFAEC00081145B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B9009B01BBFAEC00081145B /* PenpalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PenpalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B9009B41BBFAEC00081145B /* PenpalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenpalTests.swift; sourceTree = "<group>"; };
+		8B9009B61BBFAEC00081145B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B9009BB1BBFAEC00081145B /* PenpalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PenpalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B9009BF1BBFAEC00081145B /* PenpalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenpalUITests.swift; sourceTree = "<group>"; };
+		8B9009C11BBFAEC00081145B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B9009991BBFAEC00081145B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9009AD1BBFAEC00081145B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9009B81BBFAEC00081145B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B9009931BBFAEC00081145B = {
+			isa = PBXGroup;
+			children = (
+				8B90099E1BBFAEC00081145B /* Penpal */,
+				8B9009B31BBFAEC00081145B /* PenpalTests */,
+				8B9009BE1BBFAEC00081145B /* PenpalUITests */,
+				8B90099D1BBFAEC00081145B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B90099D1BBFAEC00081145B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B90099C1BBFAEC00081145B /* Penpal.app */,
+				8B9009B01BBFAEC00081145B /* PenpalTests.xctest */,
+				8B9009BB1BBFAEC00081145B /* PenpalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B90099E1BBFAEC00081145B /* Penpal */ = {
+			isa = PBXGroup;
+			children = (
+				8B90099F1BBFAEC00081145B /* AppDelegate.swift */,
+				8B9009A11BBFAEC00081145B /* ViewController.swift */,
+				8B9009A31BBFAEC00081145B /* Main.storyboard */,
+				8B9009A61BBFAEC00081145B /* Assets.xcassets */,
+				8B9009A81BBFAEC00081145B /* LaunchScreen.storyboard */,
+				8B9009AB1BBFAEC00081145B /* Info.plist */,
+			);
+			path = Penpal;
+			sourceTree = "<group>";
+		};
+		8B9009B31BBFAEC00081145B /* PenpalTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B9009B41BBFAEC00081145B /* PenpalTests.swift */,
+				8B9009B61BBFAEC00081145B /* Info.plist */,
+			);
+			path = PenpalTests;
+			sourceTree = "<group>";
+		};
+		8B9009BE1BBFAEC00081145B /* PenpalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B9009BF1BBFAEC00081145B /* PenpalUITests.swift */,
+				8B9009C11BBFAEC00081145B /* Info.plist */,
+			);
+			path = PenpalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B90099B1BBFAEC00081145B /* Penpal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B9009C41BBFAEC00081145B /* Build configuration list for PBXNativeTarget "Penpal" */;
+			buildPhases = (
+				8B9009981BBFAEC00081145B /* Sources */,
+				8B9009991BBFAEC00081145B /* Frameworks */,
+				8B90099A1BBFAEC00081145B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Penpal;
+			productName = Penpal;
+			productReference = 8B90099C1BBFAEC00081145B /* Penpal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B9009AF1BBFAEC00081145B /* PenpalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B9009C71BBFAEC00081145B /* Build configuration list for PBXNativeTarget "PenpalTests" */;
+			buildPhases = (
+				8B9009AC1BBFAEC00081145B /* Sources */,
+				8B9009AD1BBFAEC00081145B /* Frameworks */,
+				8B9009AE1BBFAEC00081145B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B9009B21BBFAEC00081145B /* PBXTargetDependency */,
+			);
+			name = PenpalTests;
+			productName = PenpalTests;
+			productReference = 8B9009B01BBFAEC00081145B /* PenpalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B9009BA1BBFAEC00081145B /* PenpalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B9009CA1BBFAEC00081145B /* Build configuration list for PBXNativeTarget "PenpalUITests" */;
+			buildPhases = (
+				8B9009B71BBFAEC00081145B /* Sources */,
+				8B9009B81BBFAEC00081145B /* Frameworks */,
+				8B9009B91BBFAEC00081145B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B9009BD1BBFAEC00081145B /* PBXTargetDependency */,
+			);
+			name = PenpalUITests;
+			productName = PenpalUITests;
+			productReference = 8B9009BB1BBFAEC00081145B /* PenpalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B9009941BBFAEC00081145B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Brian Yan";
+				TargetAttributes = {
+					8B90099B1BBFAEC00081145B = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					8B9009AF1BBFAEC00081145B = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 8B90099B1BBFAEC00081145B;
+					};
+					8B9009BA1BBFAEC00081145B = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 8B90099B1BBFAEC00081145B;
+					};
+				};
+			};
+			buildConfigurationList = 8B9009971BBFAEC00081145B /* Build configuration list for PBXProject "Penpal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B9009931BBFAEC00081145B;
+			productRefGroup = 8B90099D1BBFAEC00081145B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B90099B1BBFAEC00081145B /* Penpal */,
+				8B9009AF1BBFAEC00081145B /* PenpalTests */,
+				8B9009BA1BBFAEC00081145B /* PenpalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B90099A1BBFAEC00081145B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9009AA1BBFAEC00081145B /* LaunchScreen.storyboard in Resources */,
+				8B9009A71BBFAEC00081145B /* Assets.xcassets in Resources */,
+				8B9009A51BBFAEC00081145B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9009AE1BBFAEC00081145B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9009B91BBFAEC00081145B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B9009981BBFAEC00081145B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9009A21BBFAEC00081145B /* ViewController.swift in Sources */,
+				8B9009A01BBFAEC00081145B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9009AC1BBFAEC00081145B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9009B51BBFAEC00081145B /* PenpalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9009B71BBFAEC00081145B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9009C01BBFAEC00081145B /* PenpalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B9009B21BBFAEC00081145B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B90099B1BBFAEC00081145B /* Penpal */;
+			targetProxy = 8B9009B11BBFAEC00081145B /* PBXContainerItemProxy */;
+		};
+		8B9009BD1BBFAEC00081145B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B90099B1BBFAEC00081145B /* Penpal */;
+			targetProxy = 8B9009BC1BBFAEC00081145B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B9009A31BBFAEC00081145B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B9009A41BBFAEC00081145B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B9009A81BBFAEC00081145B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B9009A91BBFAEC00081145B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B9009C21BBFAEC00081145B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B9009C31BBFAEC00081145B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B9009C51BBFAEC00081145B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Penpal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Brian.Penpal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B9009C61BBFAEC00081145B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Penpal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Brian.Penpal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B9009C81BBFAEC00081145B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PenpalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Brian.PenpalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penpal.app/Penpal";
+			};
+			name = Debug;
+		};
+		8B9009C91BBFAEC00081145B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PenpalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Brian.PenpalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penpal.app/Penpal";
+			};
+			name = Release;
+		};
+		8B9009CB1BBFAEC00081145B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PenpalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Brian.PenpalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Penpal;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8B9009CC1BBFAEC00081145B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PenpalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Brian.PenpalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Penpal;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B9009971BBFAEC00081145B /* Build configuration list for PBXProject "Penpal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B9009C21BBFAEC00081145B /* Debug */,
+				8B9009C31BBFAEC00081145B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B9009C41BBFAEC00081145B /* Build configuration list for PBXNativeTarget "Penpal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B9009C51BBFAEC00081145B /* Debug */,
+				8B9009C61BBFAEC00081145B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B9009C71BBFAEC00081145B /* Build configuration list for PBXNativeTarget "PenpalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B9009C81BBFAEC00081145B /* Debug */,
+				8B9009C91BBFAEC00081145B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B9009CA1BBFAEC00081145B /* Build configuration list for PBXNativeTarget "PenpalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B9009CB1BBFAEC00081145B /* Debug */,
+				8B9009CC1BBFAEC00081145B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B9009941BBFAEC00081145B /* Project object */;
+}
