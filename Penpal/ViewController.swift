@@ -7,12 +7,17 @@
 //
 
 import UIKit
-
 class ViewController: UIViewController {
 
+   
+    @IBOutlet var nametitle: UILabel!
+    
+    @IBOutlet var category_one: UIButton!
+    @IBOutlet var category_two: UIButton!
+    @IBOutlet var category_three: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+         // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
