@@ -9,7 +9,7 @@
 import UIKit
 
 class SubCategoryViewController: UIViewController {
-
+    var currentuser = PFUser.currentUser()
     
     @IBOutlet weak var sports_baseball: UIButton!
     @IBOutlet weak var sports_tennis: UIButton!
@@ -27,6 +27,22 @@ class SubCategoryViewController: UIViewController {
     @IBOutlet weak var code_python: UIButton!
     @IBOutlet weak var code_mobile: UIButton!
     
+    @IBAction func Soccer_Action(sender: AnyObject) {
+      currentuser!["subcategory_sports"] = "soccer"
+        currentuser!.saveInBackground()
+        
+//        currentUser.saveInBackgroundWithBlock {
+//            (success: Bool!, error: NSError!) -> Void in
+//            
+//            if (success != nil) {
+//                println("GOOD JOB!")
+//                
+//            } else {
+//                println("BAD NEWS!: \(error)")
+//            }
+//        }
+        //currentUser?.setValue("soccer", forKey: "subcategory_sports" )
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
