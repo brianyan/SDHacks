@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BF5D3BF1BC0EA1200BD2DCD /* SubCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF5D3BE1BC0EA1200BD2DCD /* SubCategoryViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		8B9009A01BBFAEC00081145B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B90099F1BBFAEC00081145B /* AppDelegate.swift */; };
 		8B9009A21BBFAEC00081145B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9009A11BBFAEC00081145B /* ViewController.swift */; };
 		8B9009A51BBFAEC00081145B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B9009A31BBFAEC00081145B /* Main.storyboard */; };
@@ -56,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BF5D3BE1BC0EA1200BD2DCD /* SubCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCategoryViewController.swift; sourceTree = "<group>"; };
 		8B90099C1BBFAEC00081145B /* Penpal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Penpal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B90099F1BBFAEC00081145B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B9009A11BBFAEC00081145B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -229,6 +231,7 @@
 			isa = PBXGroup;
 			children = (
 				8B9009A11BBFAEC00081145B /* ViewController.swift */,
+				3BF5D3BE1BC0EA1200BD2DCD /* SubCategoryViewController.swift */,
 				8B9009FD1BC086CA0081145B /* SignUpViewController.swift */,
 				8B9009FF1BC0A36E0081145B /* SignInViewController.swift */,
 				8B900A011BC0A7DA0081145B /* MatchedUpViewController.swift */,
@@ -307,6 +310,7 @@
 				TargetAttributes = {
 					8B90099B1BBFAEC00081145B = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = WFKTS37W83;
 					};
 					8B9009AF1BBFAEC00081145B = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -371,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B900A021BC0A7DA0081145B /* MatchedUpViewController.swift in Sources */,
+				3BF5D3BF1BC0EA1200BD2DCD /* SubCategoryViewController.swift in Sources */,
 				8B900A001BC0A36E0081145B /* SignInViewController.swift in Sources */,
 				8B9009FE1BC086CA0081145B /* SignUpViewController.swift in Sources */,
 				8B9009A21BBFAEC00081145B /* ViewController.swift in Sources */,
@@ -515,6 +520,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -523,6 +530,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Brian.Penpal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Penpal-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -533,6 +541,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -541,6 +551,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Brian.Penpal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Penpal-Bridging-Header.h";
 			};
 			name = Release;
@@ -612,6 +623,7 @@
 				8B9009C61BBFAEC00081145B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B9009C71BBFAEC00081145B /* Build configuration list for PBXNativeTarget "PenpalTests" */ = {
 			isa = XCConfigurationList;
@@ -620,6 +632,7 @@
 				8B9009C91BBFAEC00081145B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B9009CA1BBFAEC00081145B /* Build configuration list for PBXNativeTarget "PenpalUITests" */ = {
 			isa = XCConfigurationList;
@@ -628,6 +641,7 @@
 				8B9009CC1BBFAEC00081145B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

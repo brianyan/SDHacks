@@ -10,11 +10,14 @@ import UIKit
 class ViewController: UIViewController {
 
    
-    @IBOutlet var nametitle: UILabel!
+
+    @IBOutlet weak var category_music: UIButton!
     
-    @IBOutlet var category_one: UIButton!
-    @IBOutlet var category_two: UIButton!
-    @IBOutlet var category_three: UIButton!
+    @IBOutlet weak var category_sports: UIButton!
+    
+    @IBOutlet weak var category_code: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
          // Do any additional setup after loading the view, typically from a nib.
