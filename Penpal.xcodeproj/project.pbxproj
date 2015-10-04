@@ -33,6 +33,9 @@
 		8B9009FA1BC079E50081145B /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9009F51BC079E50081145B /* ParseFacebookUtilsV4.framework */; settings = {ASSET_TAGS = (); }; };
 		8B9009FB1BC079E50081145B /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9009F61BC079E50081145B /* ParseTwitterUtils.framework */; settings = {ASSET_TAGS = (); }; };
 		8B9009FC1BC079E50081145B /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9009F71BC079E50081145B /* ParseUI.framework */; settings = {ASSET_TAGS = (); }; };
+		8B9009FE1BC086CA0081145B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9009FD1BC086CA0081145B /* SignUpViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8B900A001BC0A36E0081145B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9009FF1BC0A36E0081145B /* SignInViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8B900A021BC0A7DA0081145B /* MatchedUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B900A011BC0A7DA0081145B /* MatchedUpViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +89,9 @@
 		8B9009F51BC079E50081145B /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
 		8B9009F61BC079E50081145B /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
 		8B9009F71BC079E50081145B /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		8B9009FD1BC086CA0081145B /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8B9009FF1BC0A36E0081145B /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		8B900A011BC0A7DA0081145B /* MatchedUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchedUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B9009DA1BBFC8740081145B /* CoreLocation.framework in Frameworks */,
 				8B9009ED1BBFD4AF0081145B /* libz.tbd in Frameworks */,
 				8B9009F81BC079E50081145B /* ParseCrashReporting.framework in Frameworks */,
 				8B9009EB1BBFD4A00081145B /* libsqlite3.tbd in Frameworks */,
@@ -102,7 +109,6 @@
 				8B9009E01BBFC88C0081145B /* Social.framework in Frameworks */,
 				8B9009DE1BBFC8870081145B /* Security.framework in Frameworks */,
 				8B9009DC1BBFC87B0081145B /* QuartzCore.framework in Frameworks */,
-				8B9009DA1BBFC8740081145B /* CoreLocation.framework in Frameworks */,
 				8B9009FC1BC079E50081145B /* ParseUI.framework in Frameworks */,
 				8B9009D81BBFC86E0081145B /* CoreGraphics.framework in Frameworks */,
 				8B9009D61BBFC8680081145B /* CFNetwork.framework in Frameworks */,
@@ -223,6 +229,9 @@
 			isa = PBXGroup;
 			children = (
 				8B9009A11BBFAEC00081145B /* ViewController.swift */,
+				8B9009FD1BC086CA0081145B /* SignUpViewController.swift */,
+				8B9009FF1BC0A36E0081145B /* SignInViewController.swift */,
+				8B900A011BC0A7DA0081145B /* MatchedUpViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -361,6 +370,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B900A021BC0A7DA0081145B /* MatchedUpViewController.swift in Sources */,
+				8B900A001BC0A36E0081145B /* SignInViewController.swift in Sources */,
+				8B9009FE1BC086CA0081145B /* SignUpViewController.swift in Sources */,
 				8B9009A21BBFAEC00081145B /* ViewController.swift in Sources */,
 				8B9009A01BBFAEC00081145B /* AppDelegate.swift in Sources */,
 			);
