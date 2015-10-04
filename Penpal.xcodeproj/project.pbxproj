@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B2B41F21BC12F41009BACA9 /* appicon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2B41EF1BC12F41009BACA9 /* appicon2.png */; settings = {ASSET_TAGS = (); }; };
+		3B2B41F31BC12F41009BACA9 /* appicon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2B41F01BC12F41009BACA9 /* appicon3.png */; settings = {ASSET_TAGS = (); }; };
+		3B2B41F41BC12F41009BACA9 /* appicon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2B41F11BC12F41009BACA9 /* appicon1.png */; settings = {ASSET_TAGS = (); }; };
 		3BF5D3BF1BC0EA1200BD2DCD /* SubCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF5D3BE1BC0EA1200BD2DCD /* SubCategoryViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		8B9009A01BBFAEC00081145B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B90099F1BBFAEC00081145B /* AppDelegate.swift */; };
 		8B9009A21BBFAEC00081145B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9009A11BBFAEC00081145B /* ViewController.swift */; };
@@ -57,6 +60,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B2B41EF1BC12F41009BACA9 /* appicon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon2.png; sourceTree = "<group>"; };
+		3B2B41F01BC12F41009BACA9 /* appicon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon3.png; sourceTree = "<group>"; };
+		3B2B41F11BC12F41009BACA9 /* appicon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon1.png; sourceTree = "<group>"; };
 		3BF5D3BE1BC0EA1200BD2DCD /* SubCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCategoryViewController.swift; sourceTree = "<group>"; };
 		8B90099C1BBFAEC00081145B /* Penpal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Penpal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B90099F1BBFAEC00081145B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +155,9 @@
 				8B9009BE1BBFAEC00081145B /* PenpalUITests */,
 				8B90099D1BBFAEC00081145B /* Products */,
 				8B9009EE1BBFD9D10081145B /* Penpal-Bridging-Header.h */,
+				3B2B41F01BC12F41009BACA9 /* appicon3.png */,
+				3B2B41EF1BC12F41009BACA9 /* appicon2.png */,
+				3B2B41F11BC12F41009BACA9 /* appicon1.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -347,9 +356,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2B41F41BC12F41009BACA9 /* appicon1.png in Resources */,
 				8B9009AA1BBFAEC00081145B /* LaunchScreen.storyboard in Resources */,
 				8B9009A71BBFAEC00081145B /* Assets.xcassets in Resources */,
 				8B9009A51BBFAEC00081145B /* Main.storyboard in Resources */,
+				3B2B41F21BC12F41009BACA9 /* appicon2.png in Resources */,
+				3B2B41F31BC12F41009BACA9 /* appicon3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
