@@ -41,7 +41,7 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
         user.signUpInBackgroundWithBlock {
             (succeeded: Bool, error: NSError?) -> Void in
             if (succeeded) {
-                
+                self.performSegueWithIdentifier("ToMusicSegue", sender: self)
                 // Show the errorString somewhere and let the user try again.
             } else {
                 // Hooray! Let them use the app now.

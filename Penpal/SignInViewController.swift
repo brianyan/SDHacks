@@ -12,11 +12,12 @@ class SignInViewController: UIViewController {
 
     @IBOutlet var SignIn: UIButton!
     
+    @IBOutlet var error_message: UILabel!
     @IBOutlet var Username: UITextField!
     @IBOutlet var Password: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        error_message.hidden = true
         // Do any additional setup after loading the view.
     }
 
@@ -30,8 +31,10 @@ class SignInViewController: UIViewController {
             (user: PFUser?, error: NSError?) -> Void in
             if user != nil {
                 // Do stuff after successful login.
-                
+                self.performSegueWithIdentifier("ToMusicSegue2", sender: self)
+
             } else {
+                error_message.hidden = false
                 // The login failed. Check error to see why.
             }
         }

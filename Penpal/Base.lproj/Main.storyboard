@@ -40,6 +40,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="User Info Invalid." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ab0-Mo-3Hd">
+                                <rect key="frame" x="141" y="568" width="130" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -47,6 +53,8 @@
                         <outlet property="Password" destination="o4X-VI-g8k" id="4uE-OU-em7"/>
                         <outlet property="SignIn" destination="zyc-Oy-GmY" id="qsZ-JQ-QNd"/>
                         <outlet property="Username" destination="tcC-xd-aui" id="EUd-iq-vs6"/>
+                        <outlet property="error_message" destination="ab0-Mo-3Hd" id="Pqz-k2-3Ss"/>
+                        <segue destination="Nxh-GX-4GD" kind="show" identifier="ToMusicSegue2" id="R3N-Kt-m02"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t94-MM-vkP" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -102,6 +110,7 @@
                         <outlet property="Password" destination="zlC-Ny-LF7" id="LnM-Vr-XE9"/>
                         <outlet property="Sign_Up" destination="pUx-M1-4zC" id="cir-dA-r9v"/>
                         <outlet property="Username" destination="0bs-Yq-elg" id="2qC-Kb-qAe"/>
+                        <segue destination="Nxh-GX-4GD" kind="show" identifier="ToMusicSegue" id="DLt-gS-buu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lbw-96-VvI" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -375,5 +384,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="dAH-er-lmt"/>
+        <segue reference="R3N-Kt-m02"/>
     </inferredMetricsTieBreakers>
 </document>
