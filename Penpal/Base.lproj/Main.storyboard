@@ -2,14 +2,12 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Nxh-GX-4GD">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Sign In View Controller-->
+        <!--Username-->
         <scene sceneID="vkL-na-txe">
             <objects>
-                <viewController id="0Wx-tk-lce" customClass="SignInViewController" customModule="Penpal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Username" id="0Wx-tk-lce" customClass="SignInViewController" customModule="Penpal" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pAv-gV-LOR"/>
                         <viewControllerLayoutGuide type="bottom" id="kpi-nw-aYK"/>
@@ -18,36 +16,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign In" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vru-5Q-Dcs">
-                                <rect key="frame" x="165" y="78" width="84" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tcC-xd-aui">
-                                <rect key="frame" x="90" y="252" width="233" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o4X-VI-g8k">
+                                <rect key="frame" x="90" y="319" width="233" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o4X-VI-g8k">
-                                <rect key="frame" x="90" y="328" width="233" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JUA-3p-BJF">
-                                <rect key="frame" x="91" y="449" width="233" height="30"/>
+                                <rect key="frame" x="90" y="486" width="233" height="30"/>
                                 <state key="normal" title="New to Penpal? Register Here"/>
                                 <connections>
                                     <segue destination="TaQ-EI-oWo" kind="show" id="2ve-5r-fx4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyc-Oy-GmY">
-                                <rect key="frame" x="146" y="399" width="120" height="30"/>
-                                <state key="normal" title="Sign In"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyc-Oy-GmY">
+                                <rect key="frame" x="157" y="378" width="100" height="100"/>
+                                <state key="normal" title="Sign In" image="signinhere"/>
                                 <connections>
                                     <action selector="SignInAction:" destination="0Wx-tk-lce" eventType="touchUpInside" id="KkJ-J5-WIs"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tcC-xd-aui">
+                                <rect key="frame" x="90" y="249" width="233" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -73,80 +65,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pUx-M1-4zC">
-                                <rect key="frame" x="102" y="521" width="211" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="211" id="dU8-ND-Lkh"/>
-                                </constraints>
-                                <state key="normal" title="Continue"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pUx-M1-4zC">
+                                <rect key="frame" x="157" y="547" width="100" height="100"/>
+                                <state key="normal" title="Continue" image="continue"/>
                                 <connections>
                                     <action selector="SignUpRequest:" destination="TaQ-EI-oWo" eventType="touchUpInside" id="sFr-lB-tPt"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0bs-Yq-elg">
-                                <rect key="frame" x="110" y="439" width="194" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="194" id="ujk-iu-ilo"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zlC-Ny-LF7">
-                                <rect key="frame" x="110" y="490" width="194" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b6c-hG-Iwp">
-                                <rect key="frame" x="110" y="541" width="194" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Register to Continue" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TNx-ee-r4p">
-                                <rect key="frame" x="162" y="110" width="276" height="49"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="51" id="njN-cI-hxd"/>
-                                    <constraint firstAttribute="width" constant="114" id="twR-zI-5Ip"/>
-                                    <constraint firstAttribute="width" secondItem="TNx-ee-r4p" secondAttribute="height" multiplier="38:17" id="zRe-HB-E34"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="27"/>
-                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="zRe-HB-E34"/>
-                                    </mask>
-                                </variation>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UVm-D5-XwN">
-                                <rect key="frame" x="180" y="467" width="241" height="30"/>
+                                <rect key="frame" x="87" y="490" width="241" height="30"/>
                                 <state key="normal" title="Have an account? Log in here"/>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="register" translatesAutoresizingMaskIntoConstraints="NO" id="758-zb-2cm">
+                                <rect key="frame" x="110" y="45" width="206" height="261"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0bs-Yq-elg">
+                                <rect key="frame" x="110" y="337" width="194" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Choose Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zlC-Ny-LF7">
+                                <rect key="frame" x="110" y="384" width="194" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b6c-hG-Iwp">
+                                <rect key="frame" x="110" y="427" width="194" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="TNx-ee-r4p" firstAttribute="top" secondItem="wgK-ls-Efx" secondAttribute="bottom" constant="89" id="5bQ-Sy-dg0"/>
-                            <constraint firstItem="zlC-Ny-LF7" firstAttribute="trailing" secondItem="b6c-hG-Iwp" secondAttribute="trailing" id="5fx-Xp-JyA"/>
-                            <constraint firstItem="pUx-M1-4zC" firstAttribute="centerX" secondItem="b6c-hG-Iwp" secondAttribute="centerX" id="FrQ-G6-nif"/>
-                            <constraint firstItem="zlC-Ny-LF7" firstAttribute="trailing" secondItem="0bs-Yq-elg" secondAttribute="trailing" id="J46-HW-4R1"/>
-                            <constraint firstItem="0bs-Yq-elg" firstAttribute="top" secondItem="TNx-ee-r4p" secondAttribute="bottom" constant="145" id="JFT-FE-xG6"/>
-                            <constraint firstItem="pUx-M1-4zC" firstAttribute="top" secondItem="b6c-hG-Iwp" secondAttribute="bottom" constant="50" id="Lwh-61-T1c"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="TNx-ee-r4p" secondAttribute="trailing" id="Pzm-VF-rPe"/>
-                            <constraint firstItem="b6c-hG-Iwp" firstAttribute="top" secondItem="zlC-Ny-LF7" secondAttribute="bottom" constant="21" id="UKg-8G-Yf3"/>
-                            <constraint firstItem="zlC-Ny-LF7" firstAttribute="top" secondItem="0bs-Yq-elg" secondAttribute="bottom" constant="21" id="VfL-cz-41N"/>
-                            <constraint firstItem="0bs-Yq-elg" firstAttribute="centerX" secondItem="TNx-ee-r4p" secondAttribute="centerX" id="YIr-Vo-isV"/>
-                            <constraint firstItem="zlC-Ny-LF7" firstAttribute="centerX" secondItem="EMI-Qn-XMb" secondAttribute="centerX" id="Zkz-ro-SY1"/>
-                            <constraint firstItem="zlC-Ny-LF7" firstAttribute="leading" secondItem="0bs-Yq-elg" secondAttribute="leading" id="Zzz-8c-b6s"/>
-                            <constraint firstItem="Hqb-uQ-SAX" firstAttribute="top" secondItem="pUx-M1-4zC" secondAttribute="bottom" constant="85" id="bvx-Pd-3ld"/>
-                            <constraint firstItem="TNx-ee-r4p" firstAttribute="leading" secondItem="EMI-Qn-XMb" secondAttribute="leadingMargin" id="fCD-g0-ys7"/>
-                            <constraint firstItem="zlC-Ny-LF7" firstAttribute="leading" secondItem="b6c-hG-Iwp" secondAttribute="leading" id="xbw-OS-I9I"/>
-                        </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="Pzm-VF-rPe"/>
-                                <exclude reference="fCD-g0-ys7"/>
-                                <exclude reference="JFT-FE-xG6"/>
-                            </mask>
-                        </variation>
                     </view>
                     <connections>
                         <outlet property="Email" destination="b6c-hG-Iwp" id="NBp-7E-SPI"/>
@@ -172,7 +121,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DlR-q1-YMG">
-                                <rect key="frame" x="60" y="262" width="150" height="150"/>
+                                <rect key="frame" x="56" y="257" width="150" height="150"/>
                                 <state key="normal" title="Button" image="musicbutton"/>
                                 <connections>
                                     <segue destination="Rst-w2-YG1" kind="show" id="MtA-QI-GOc">
@@ -180,20 +129,20 @@
                                     </segue>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ag-AK-9UU">
-                                <rect key="frame" x="185" y="376" width="150" height="150"/>
-                                <state key="normal" title="Button" image="codebutton"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FKE-fD-FeV">
+                                <rect key="frame" x="191" y="172" width="150" height="150"/>
+                                <state key="normal" title="Button" image="sportsbutton"/>
                                 <connections>
-                                    <segue destination="dvY-3K-8Eo" kind="show" id="elk-6g-cmR">
+                                    <segue destination="QQ7-H4-JHb" kind="show" id="ISY-I3-Iti">
                                         <nil key="action"/>
                                     </segue>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FKE-fD-FeV">
-                                <rect key="frame" x="209" y="199" width="150" height="150"/>
-                                <state key="normal" title="Button" image="sportsbutton"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ag-AK-9UU">
+                                <rect key="frame" x="178" y="366" width="150" height="150"/>
+                                <state key="normal" title="Button" image="codebutton"/>
                                 <connections>
-                                    <segue destination="QQ7-H4-JHb" kind="show" id="ISY-I3-Iti">
+                                    <segue destination="dvY-3K-8Eo" kind="show" id="elk-6g-cmR">
                                         <nil key="action"/>
                                     </segue>
                                 </connections>
@@ -407,6 +356,7 @@
         <image name="ccode" width="750" height="750"/>
         <image name="classicalmusic" width="750" height="750"/>
         <image name="codebutton" width="883" height="883"/>
+        <image name="continue" width="1033" height="1033"/>
         <image name="electronicmusic" width="750" height="750"/>
         <image name="footballsport" width="750" height="750"/>
         <image name="hiphopmusic" width="750" height="750"/>
@@ -415,7 +365,9 @@
         <image name="musicbutton" width="883" height="883"/>
         <image name="popmusic" width="750" height="750"/>
         <image name="pythoncode" width="750" height="750"/>
+        <image name="register" width="1288" height="1682"/>
         <image name="rockmusic" width="750" height="750"/>
+        <image name="signinhere" width="1027" height="1027"/>
         <image name="soccersport" width="750" height="750"/>
         <image name="sportsbutton" width="883" height="883"/>
         <image name="tennissport" width="750" height="750"/>

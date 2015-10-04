@@ -77,6 +77,11 @@ let locationManager = CLLocationManager()
         }
         
     }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
+    }
         /*
     // MARK: - Navigation
 

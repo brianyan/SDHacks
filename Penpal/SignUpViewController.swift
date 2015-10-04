@@ -8,17 +8,23 @@
 
 import UIKit
 
-class SignUpViewController: UIViewController {
+class SignUpViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet var Sign_Up: UIButton!
     
     @IBOutlet var Username: UITextField!
     @IBOutlet var Password: UITextField!
     @IBOutlet var Email: UITextField!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUITextField()
         // Do any additional setup after loading the view.
+        self.Username.delegate = self;
+        self.Password.delegate = self;
+        self.Email.delegate = self;
     }
 
     override func didReceiveMemoryWarning() {
@@ -51,6 +57,11 @@ class SignUpViewController: UIViewController {
         
         
         
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
     }
     /*
     // MARK: - Navigation
