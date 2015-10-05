@@ -34,7 +34,7 @@ class SignInViewController: UIViewController {
                 self.performSegueWithIdentifier("ToMusicSegue2", sender: self)
 
             } else {
-                error_message.hidden = false
+                self.error_message.hidden = false
                 // The login failed. Check error to see why.
             }
         }
